@@ -40,8 +40,8 @@ html, body {height: 100%;}
 #content2{margin:0 auto; width:320px;  height:100%;background:url(../images/snowbg.png) center repeat-y; background-size:320px 370px;-moz-background-size:320px 370px;}
 
 #content2 .logo{  width:320px; text-align:left;}
-#content2 .logo a img{ height:15px; border:0; margin:10px 10px 10px 15px;}
-#content2 .logotitle{ margin:0 15px; width:290px; text-align:left;}
+#content2 .logo a img{ height:20px; border:0; margin:20px 10px 10px 20px;}
+#content2 .logotitle{ margin:0 20px; width:290px; text-align:left;}
 #content2 .logotitle img{ width:260px; border:0;}
 
 .giftbox:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
@@ -51,34 +51,34 @@ html, body {height: 100%;}
 #container .giftbox li{ position:absolute; width:38px; height:38px;}
 #container .giftbox li img{ width:38px; height:38px; border:0; }
 
-#container .giftbox li.li1{ left:0; top:95px;}
+#container .giftbox li.li1{ left:0; top:100px;}
 #container .giftbox li.li2{ left:25px; top:50px;}
 #container .giftbox li.li3{ left:60px; top:15px; }
 #container .giftbox li.li4{ left:97px; top:-10px; }
-#container .giftbox li.li5{ left:133px; top:12px; }
-#container .giftbox li.li6{ left:172px; top:35px; }
+#container .giftbox li.li5{ left:135px; top:4px; }
+#container .giftbox li.li6{ left:172px; top:45px; }
 #container .giftbox li.li7{ left:215px; top:70px; }
-#container .giftbox li.li8{ left:40px; top:140px; }
-#container .giftbox li.li9{ left:50px; top:100px; }
-#container .giftbox li.li10{ left:70px; top:65px; }
-#container .giftbox li.li11{ left:109px; top:45px;}
+#container .giftbox li.li8{ left:40px; top:145px; }
+#container .giftbox li.li9{ left:55px; top:105px; }
+#container .giftbox li.li10{ left:75px; top:70px; }
+#container .giftbox li.li11{ left:113px; top:35px;}
 #container .giftbox li.li12{ left:98px; top:115px; }
-#container .giftbox li.li13{ left:142px; top:72px; }
-#container .giftbox li.li14{ left:150px; top:128px; }
-#container .giftbox li.li15{ left:178px; top:90px; }
-#container .giftbox li.li16{ left:200px; top:135px; }
+#container .giftbox li.li13{ left:132px; top:75px; }
+#container .giftbox li.li14{ left:150px; top:138px; }
+#container .giftbox li.li15{ left:170px; top:98px; }
+#container .giftbox li.li16{ left:200px; top:142px; }
 
-#container .giftbox .tip{ position:absolute; left:-30px; top:185px; width:112px; height:45px; background:url(../images/tip.png) no-repeat;background-size:112px 45px;-moz-background-size:112px 45px;}
+#container .giftbox .tip{ position:absolute; left:-30px; top:195px; width:112px; height:45px; background:url(../images/tip.png) no-repeat;background-size:112px 45px;-moz-background-size:112px 45px;}
 
-#container .btn_zmw{ height:41px; margin:254px auto 0; width:96px;}
+#container .btn_zmw{ height:41px; margin:256px auto 0; width:96px;}
 #container .btn_zmw a{background:url(../images/btn_zmw.png) no-repeat; background-size:96px 41px;-moz-background-size:96px 41px; width:96px; height:41px; display:block;}
 #container .btn_zmw a:hover{background:url(../images/btn_zmwon.png) no-repeat; background-size:96px 41px;-moz-background-size:96px 41px; width:96px; height:41px; display:block;}
 
 
 
 label.checkbox {text-align:center; cursor:pointer; width:38px; height:38px; display:inline-block; } 
-label.checked { -webkit-border-radius: 19px 19px 19px 19px;border-radius: 19px 19px 19px 19px;-moz-box-shadow: 0 0 20px #f5e908;
--webkit-box-shadow: 0 0 20px #f5e908;box-shadow: 0 0 20px #f5e908;} 
+label.checked { -webkit-border-radius: 19px 19px 19px 19px;border-radius: 19px 19px 19px 19px;-moz-box-shadow: 0 0 30px #fff;
+-webkit-box-shadow: 0 0 30px #fff;box-shadow: 0 0 30px #fff;} 
 label.disabled{}
 
 .mydiv { background:none; text-align: center; font-size: 12px; z-index:99;  left:50%;/*FF IE7*/ top: 20px;/*FF IE7*/margin-left:-160px!important;/*FF IE7 ��ֵΪ������һ�� */ position:absolute;/*FF IE7*/    }  
@@ -102,11 +102,11 @@ a.icon_close{ float:right; padding:15px 15px 0 0; width:15px; height:16px; backg
 
 .btn_snow{ width:300px; margin:0 auto;}
 .btn_snow a{ display:inline-block;}
-a.btn1{ width:74px; height:40px; background:url(../images/btn1.png) no-repeat; margin:15px 10px;background-size:74px 40px;-moz-background-size:74px 40px;}
-a.btn2{ width:81px; height:40px; background:url(../images/btn2.png) no-repeat; margin:15px 10px;background-size:81px 40px;-moz-background-size:81px 40px;}
-a.btn3{ width:87px; height:40px; background:url(../images/btn3.png) no-repeat; margin:15px 0 15px 10px;background-size:87px 40px;-moz-background-size:87px 40px;}
-a.btn4{ width:166px; height:40px; background:url(../images/btn4.png) no-repeat; margin:15px 10px;background-size:166px 40px;-moz-background-size:166px 40px;}
-a.btn5{ width:90px; height:40px; background:url(../images/btn5.png) no-repeat; margin:15px 0 15px 10px;background-size:90px 40px;-moz-background-size:90px 40px;}
+a.btn1{ width:84px; height:45px; background:url(../images/btn1.png) no-repeat; margin:15px 5px 10px 5px;background-size:84px 45px;-moz-background-size:84px 45px;}
+a.btn2{ width:91px; height:45px; background:url(../images/btn2.png) no-repeat; margin:15px 5px 10px 5px;background-size:91px 45px;-moz-background-size:91px 45px;}
+a.btn3{ width:98px; height:45px; background:url(../images/btn3.png) no-repeat; margin:15px 0 10px 5px;background-size:98px 45px;-moz-background-size:98px 45px;}
+a.btn4{ width:187px; height:45px; background:url(../images/btn4.png) no-repeat; margin:15px 5px 10px 5px;background-size:187px 45px;-moz-background-size:187px 45px;}
+a.btn5{ width:101px; height:45px; background:url(../images/btn5.png) no-repeat; margin:15px 0 10px 0;background-size:101px 45px;-moz-background-size:101px 45px;}
 
 a.btn_del{ width:300px; height:40px; line-height:40px; text-align:center; font-size:16px; color:#fff; text-decoration:none; background:#7b7538; display:inline-block; margin-top:20px;}
 a:hover.btn_del{ background:#999350;}
