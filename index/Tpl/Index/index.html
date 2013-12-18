@@ -12,7 +12,7 @@
 <link rel="stylesheet" type="text/css" href="__PUBLIC__/index/css/common.css">
 <script type="text/javascript" src="__PUBLIC__/index/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript">
-;(function($){
+(function($){
 	$.fn.hcheckbox=function(options){
 		$(':checkbox+label',this).each(function(){
 			$(this).addClass('checkbox');
@@ -115,5 +115,13 @@ function closeBg() {
     </div>
 </div>
 </body>
+<script>
+$(function(){
+    $.each($('label.checked'), function(key,val){
+        $(val).removeClass('checked');
+        $(val).prev()[0].checked = false;
+    });
+});
+</script>
 
 </html>

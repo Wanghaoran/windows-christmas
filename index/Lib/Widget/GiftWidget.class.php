@@ -12,21 +12,21 @@ class GiftWidget extends Action {
 
         2 => array(
             'title' => '1520 6英寸大屏',
-            'content' => '更大的屏幕尺寸，更广阔的视野，祝你',
-            'label' => '一览众山',
+            'content' => '更大的屏幕尺寸，更炫的视觉享受，祝你',
+            'label' => '天空海阔',
             'icon' => '2.png',
         ),
 
         3 => array(
             'title' => 'Office中心',
-            'content' => '移动办公，强大高效，出色体验，',
+            'content' => '内置Office, 轻松实现移动办公，让你',
             'label' => '大展宏图',
             'icon' => '3.png',
         ),
 
         4 => array(
             'title' => '房间',
-            'content' => '更智能的组群分类和动态分享，祝你和朋友家人',
+            'content' => '跟不同人群一起分享照片、短信、日程，祝你和朋友家人',
             'label' => '欢聚一堂',
             'icon' => '4.png',
         ),
@@ -40,7 +40,7 @@ class GiftWidget extends Action {
 
         6 => array(
             'title' => 'SkyDrive',
-            'content' => '照片、视频、办公软件随身携带不离手，祝你',
+            'content' => '照片、视频、办公软件随你一起走，祝你',
             'label' => '乐享生活',
             'icon' => '6.png',
         ),
@@ -54,7 +54,7 @@ class GiftWidget extends Action {
 
         8 => array(
             'title' => '人脉中心',
-            'content' => '智能通讯录，好友动态实时更新，让你轻轻松松',
+            'content' => '好友动态实时更新，让你轻轻松松',
             'label' => '结缘四海',
             'icon' => '8.png',
         ),
@@ -82,22 +82,22 @@ class GiftWidget extends Action {
 
         12 => array(
             'title' => '爱奇艺视频',
-            'content' => '你随身的电视遥控器，实现手机与电视内容的同步，祝你',
+            'content' => '涵盖电影、电视剧、动漫、娱乐等热门视频，持续快速更新内容',
             'label' => '大开眼界',
             'icon' => '12.png',
         ),
 
         13 => array(
             'title' => '动态磁贴',
-            'content' => '编辑专属你的个性界面，随心所欲，',
-            'label' => '游刃有余',
+            'content' => '将兴趣模块定格在开始界面, 随心所欲, 爱你所爱, 让你',
+            'label' => '精彩畅玩',
             'icon' => '13.png',
         ),
 
         14 => array(
             'title' => '贴纸天气',
-            'content' => '最有爱的天气加上最有爱的你，贴心伴你',
-            'label' => '日行千里',
+            'content' => '晴空艳阳或是雨雪雾霾，随时随地的贴心提示，祝你',
+            'label' => '美丽动人',
             'icon' => '14.png',
         ),
 
