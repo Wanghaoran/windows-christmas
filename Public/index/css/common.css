@@ -33,21 +33,21 @@ html, body {height: 100%;}
 #treebox{position:fixed;bottom:0px; height:300px; width:320px; margin:0 auto; background:url(../images/tree.png) bottom no-repeat;background-size:320px 268px;
 -moz-background-size:320px 268px;}
 
-.container1{ margin:0 auto; width:320px; min-height:400px; height:100%; background:url(../images/bodybg2.jpg) top center no-repeat; background-size:320px 181px;
+.container1{ margin:0 auto; width:320px; height:100%; background:url(../images/bodybg2.jpg) top center no-repeat; background-size:320px 181px;
 -moz-background-size:320px 181px;}
-.container2{ margin:0 auto; width:320px; min-height:400px; height:100%; background:url(../images/bodybg4.jpg) top center no-repeat; background-size:320px 181px; -moz-background-size:320px 181px;}
-#content1{ margin:0 auto; width:320px; min-height:400px; height:100%;background:url(../images/bodybg3.jpg) bottom center no-repeat; background-size:320px 187px;-moz-background-size:320px 187px;}
-#content2{margin:0 auto; width:320px; min-height:400px; height:100%;background:url(../images/snowbg.png) center repeat-y; background-size:320px 370px;-moz-background-size:320px 370px;}
+.container2{ margin:0 auto; width:320px; height:100%; background:url(../images/bodybg4.jpg) top center no-repeat; background-size:320px 181px; -moz-background-size:320px 181px;}
+#content1{ margin:0 auto; width:320px; height:100%;background:url(../images/bodybg3.jpg) bottom center no-repeat; background-size:320px 187px;-moz-background-size:320px 187px;}
+#content2{margin:0 auto; width:320px;  height:100%;background:url(../images/snowbg.png) center repeat-y; background-size:320px 370px;-moz-background-size:320px 370px;}
 
 #content2 .logo{  width:320px; text-align:left;}
-#content2 .logo a img{ height:15px; border:0; margin:15px 10px 20px 15px;}
+#content2 .logo a img{ height:15px; border:0; margin:10px 10px 10px 15px;}
 #content2 .logotitle{ margin:0 15px; width:290px; text-align:left;}
 #content2 .logotitle img{ width:260px; border:0;}
 
 .giftbox:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
 .giftbox{zoom:1;}
 
-#container .giftbox{ width:250px; margin:10px auto; position:relative;}
+#container .giftbox{ width:250px; margin:0px auto; position:relative;}
 #container .giftbox li{ position:absolute; width:38px; height:38px;}
 #container .giftbox li img{ width:38px; height:38px; border:0; }
 
@@ -77,9 +77,8 @@ html, body {height: 100%;}
 
 
 label.checkbox {text-align:center; cursor:pointer; width:38px; height:38px; display:inline-block; } 
-label.checked {-moz-border-radius:0 0 20px 20px;-webkit-
-border-radius:20px 20px 20px 20px;border-radius:20px 20px 20px 20px;-webkit-box-shadow: 0px 0px 25px #fff948;-moz-box-
-shadow: 0px 0px 25px #fff948;} 
+label.checked { -webkit-border-radius: 19px 19px 19px 19px;border-radius: 19px 19px 19px 19px;-moz-box-shadow: 0 0 20px #f5e908;
+-webkit-box-shadow: 0 0 20px #f5e908;box-shadow: 0 0 20px #f5e908;} 
 label.disabled{}
 
 .mydiv { background:none; text-align: center; font-size: 12px; z-index:99;  left:50%;/*FF IE7*/ top: 20px;/*FF IE7*/margin-left:-160px!important;/*FF IE7 ��ֵΪ������һ�� */ position:absolute;/*FF IE7*/    }  
