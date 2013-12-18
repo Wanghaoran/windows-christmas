@@ -10,33 +10,109 @@
 <meta name="keywords" content="">
 <meta name="description" content="">
 <link rel="stylesheet" type="text/css" href="__PUBLIC__/index/css/common.css">
-</head>
+<script type="text/javascript" src="__PUBLIC__/index/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+;(function($){
+	$.fn.hcheckbox=function(options){
+		$(':checkbox+label',this).each(function(){
+			$(this).addClass('checkbox');
+            if($(this).prev().is(':disabled')==false){
+                if($(this).prev().is(':checked'))
+				    $(this).addClass("checked");
+            }else{
+                $(this).addClass('disabled');
+            }
+		}).click(function(event){
 
+				if(!$(this).prev().is(':checked')){
+					if($('label.checked').size()==3){
+//                        $('#testform').submit();
+						alert("最多只能选三个礼物！");
+						return false;
+				     }
+
+					
+				    $(this).addClass("checked");
+                    $(this).prev()[0].checked = true;
+					
+                }
+                else{
+                    $(this).removeClass('checked');			
+                    $(this).prev()[0].checked = false;
+                }
+                event.stopPropagation();
+
+                    if($('label.checked').size()==3){
+                        $('#testform').submit();
+//                        alert("最多只能选三个礼物！");
+                        return false;
+                    }
+			
+			}
+		).prev().hide();
+	}
+})(jQuery)
+</script>
+<script type="text/javascript">
+//复选框
+$(function(){
+	$('.giftbox').hcheckbox();
+});
+
+//显示灰色 jQuery 遮罩层
+function showBg() {
+	
+	$("#hidebg").css({
+		display: "block"
+	});
+	$("#popDiv").show();
+}
+//关闭灰色 jQuery 遮罩
+function closeBg() {
+	$("#hidebg,#popDiv").hide();
+}
+</script>
+</head>
+<!--背景1-->
 <body>
-<div id="container">
-    <div class="logo">
-    	<a href="#"><img src="__PUBLIC__/index/images/logo.png"/></a>
+<!--遮罩层  start-->
+<div id="popDiv" class="mydiv" style="display:none;"> 	
+    <a href="javascript:closeBg()" class="icon_close"></a>  
+    <div class="divimg">
+    <img src="__PUBLIC__/index/images/popdiv.jpg"/>
     </div>
-    <div class="logotitle"><img src="__PUBLIC__/index/images/logotitle.png"/></div>
-    <ul class="giftbox">
-    	<li class="li1"></li>
-        <li class="li2"></li>
-        <li class="li3"></li>
-        <li class="li4"></li>
-        <li class="li5"></li>
-        <li class="li6"></li>
-        <li class="li7"></li>
-        <li class="li8"></li>
-        <li class="li9"></li>
-        <li class="li10"></li>
-        <li class="li11"></li>
-        <li class="li12"></li>
-        <li class="li13"></li>
-        <li class="li14"></li>
-        <li class="li15"></li>
-        <li class="li16"></li>
-    </ul>
-    <div class="btn_zmw"><a href="#"></a></div>
+</div>                                   
+<div id="hidebg" class="hidebg" style="display:none"></div> 
+<!--遮罩层  end--> 
+<!--背景2-->
+<div id="container" class="container1">
+	<!--背景3-->
+    <div id="content1">
+    	<!--背景4-->
+    	<div id="content2">
+        	<!--logo 图标-->
+            <div class="logo">
+                <a href="#"><img src="__PUBLIC__/index/images/logo.png"/></a>
+            </div>
+            <!--logo 文字-->
+            <div class="logotitle"><img src="__PUBLIC__/index/images/logotitle.png"/></div>
+            <div id="treebox">
+            	
+            	<form id="testform" action="__URL__/check" method="post">
+            	<ul class="giftbox">
+                	<div class="tip"></div>
+                    <volist name="gift" id="g">
+                        <li class="li<-{$key}->">
+                            <input type="checkbox" name="checkgift[]" value='<-{$key}->' /><label><img id="img_<-{$key}->"  src="__PUBLIC__/index/images/<-{$key}->.png"/></label>
+                        </li>
+                    </volist>
+
+                </ul>
+                <div class="btn_zmw"><a href="#" onClick="showBg();"></a></div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 

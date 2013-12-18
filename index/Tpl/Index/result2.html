@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Windows Phone 许愿送贺卡</title>
+<meta http-equiv="Cache-Control" content="max-age=3600">
+<meta name="MobileOptimized" content="240">
+<meta name="apple-touch-fullscreen" content="YES">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/index/css/common.css">
+</head>
+<!--背景1-->
+<body>
+<!--背景2-->
+<div id="container" class="container2">
+	<!--背景3-->
+    <div id="content1">
+    	<!--背景4-->
+    	<div id="content2">
+        	<!--logo 图标-->
+            <div class="logo">
+                <a href="#"><img src="__PUBLIC__/index/images/logo.png"/></a>
+            </div>
+            <!--logo 文字-->
+            <div class="logotitle"><img src="__PUBLIC__/index/images/logotitle.png"/></div>
+            <div id="cardbox">
+            	<ul class="card">
+                    <volist name="result" id="r">
+                        <li class="c<-{$i}->">
+                            <img src="__PUBLIC__/index/images/<-{$r.icon}->"/>
+                            <div><-{$r.content}-><h2><-{$r.label}-></h2></div>
+                        </li>
+                    </volist>
+                </ul>
+            	<div class="clear20"></div>
+                <div class="btn_snow">
+                	<a href="#" class="btn4"></a><a href="__ROOT__" class="btn5"></a><a href="" class="btn3"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
