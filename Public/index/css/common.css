@@ -108,5 +108,6 @@ a.btn3{ width:109px; height:54px;background:url(../images/btn_share1.png) no-rep
 a.btn4{ width:188px; height:51px;background:url(../images/btn_share2.png) no-repeat; background-size:300px 51px;-moz-background-size:300px 51px; background-position:0 0; margin-right:2px;}
 a.btn5{ width:108px; height:51px;background:url(../images/btn_share2.png) no-repeat; background-size:300px 51px;-moz-background-size:300px 51px; background-position:-190px 0;}
 
-a.btn_del{ width:309px; height:45px;  background:url(../images/btn_cancel.jpg) no-repeat; display:block; margin-top:20px; text-indent:-9999em;}
+a.btn_del{ width:309px; height:45px;  display:block; margin-top:20px; text-indent:-9999em;background:url(../images/btn_cancel.jpg) bottom no-repeat;background-size:309px 45px;
+-moz-background-size:309px 45px;}
 
