@@ -77,8 +77,8 @@ html, body {height: 100%;}
 
 
 label.checkbox {text-align:center; cursor:pointer; width:38px; height:38px; display:inline-block; } 
-label.checked { -webkit-border-radius: 19px 19px 19px 19px;border-radius: 19px 19px 19px 19px;-moz-box-shadow: 0 0 30px #fff;
--webkit-box-shadow: 0 0 30px #fff;box-shadow: 0 0 30px #fff;} 
+label.checked { -webkit-border-radius: 19px 19px 19px 19px;border-radius: 19px 19px 19px 19px;-moz-box-shadow: 0 0 20px #f7ff00;
+-webkit-box-shadow: 0 0 20px #f7ff00;box-shadow: 0 0 20px #f7ff00; border:#f7ff00 1px solid;}
 label.disabled{}
 
 .mydiv { background:none; text-align: center; font-size: 12px; z-index:99;  left:50%;/*FF IE7*/ top: 20px;/*FF IE7*/margin-left:-160px!important;/*FF IE7 ��ֵΪ������һ�� */ position:absolute;/*FF IE7*/    }  
@@ -96,8 +96,8 @@ a.icon_close{ float:right; padding:15px 15px 0 0; width:15px; height:16px; backg
 .card li.c2{left:0px; top:75px;}
 .card li.c3{left:130px; top:155px;}
 .card li img{ float:left; width:45px; height:45px; border:0; margin:10px 0 0 0;}
-.card li div{ float:left; width:125px; margin:15px 0 0 0; line-height:12px; font-size:12px; color:#414141; text-align:center;}
-.card li div h2{ font-size:14px; color:#c80000; font-weight:normal; margin-top:3px;}
+.card li div{ float:left; width:125px; margin:15px 0 0 0; line-height:12px; font-size:10px; color:#414141; text-align:center;}
+.card li div h2{ font-size:12px; color:#c80000; font-weight:normal; margin-top:3px;}
 
 
 .btn_snow{ width:300px; margin:0 auto;}
