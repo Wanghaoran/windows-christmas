@@ -30,7 +30,7 @@ a:hover{text-decoration:none;color:#F40;outline:none;}
 body{ background:#000 url(../images/bodybg1.jpg) center repeat-y; font-family:"mircrosoft yahei","微软雅黑",Tahoma, Verdana, Arial, Geneva, sans-serif;}
 html{-webkit-text-size-adjust:none;}/*chrome font-size<12px */ 
 html, body {height: 100%;}
-#treebox{position:absolute; bottom:32px; height:268px; width:320px; margin:0 auto; background:url(../images/tree.png) bottom no-repeat;background-size:320px 268px;
+#treebox{position:absolute; bottom:50px; height:268px; width:320px; margin:0 auto; background:url(../images/tree.png) bottom no-repeat;background-size:320px 268px;
 -moz-background-size:320px 268px;}
 
 .container1{ margin:0 auto; width:320px; height:100%; background:url(../images/bodybg2.jpg) top center no-repeat; background-size:320px 181px;
@@ -88,7 +88,7 @@ label.disabled{}
 a.icon_close{ float:right; padding:15px 15px 0 0; width:15px; height:16px; background:url(../images/icon_close.png) no-repeat;background-size:15px 16px;-moz-background-size:15px 16px;}
 
 /*圣诞卡*/
-#cardbox{position:fixed;bottom:0px; height:302px; width:320px; margin:0 auto; background:url(../images/card.png) bottom no-repeat;background-size:320px 302px;
+#cardbox{position:fixed;bottom:50px;height:302px; width:320px; margin:0 auto; background:url(../images/card.png) bottom no-repeat;background-size:320px 302px;
 -moz-background-size:320px 302px;}
 .card{ width:320px; height:200px; margin:0 auto; position:relative;}
 .card li{ position:absolute; width:200px; height:50px;}
