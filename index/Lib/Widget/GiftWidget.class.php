@@ -26,7 +26,7 @@ class GiftWidget extends Action {
 
         4 => array(
             'title' => '房间',
-            'content' => '跟不同人群一起分享照片、短信、日程，祝你和朋友家人',
+            'content' => '跟不同人群一起分享照片、日程，祝你和亲朋',
             'label' => '欢聚一堂',
             'icon' => '4.png',
         ),
@@ -82,14 +82,14 @@ class GiftWidget extends Action {
 
         12 => array(
             'title' => '爱奇艺视频',
-            'content' => '涵盖电影、电视剧、动漫、娱乐等热门视频，持续快速更新内容',
+            'content' => '持续快速更新电影、电视剧等热门视频，让你',
             'label' => '大开眼界',
             'icon' => '12.png',
         ),
 
         13 => array(
             'title' => '动态磁贴',
-            'content' => '最新的应用更新，更快的实时消息，新鲜方便还快捷，随时随地，祝你',
+            'content' => '将兴趣模块定格在开始界面, 随心所欲, 爱你所爱, 让你',
             'label' => '运筹帷幄',
             'icon' => '13.png',
         ),

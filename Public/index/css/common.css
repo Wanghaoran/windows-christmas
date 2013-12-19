@@ -40,8 +40,8 @@ html, body {height: 100%;}
 #content2{margin:0 auto; width:320px;  height:100%;background:url(../images/snowbg.png) center repeat-y; background-size:320px 370px;-moz-background-size:320px 370px; position:relative;}
 
 #content2 .logo{  width:320px; text-align:left;}
-#content2 .logo a img{ height:20px; border:0; margin:20px 10px 10px 20px;}
-#content2 .logotitle{ margin:0 20px; width:290px; text-align:left;}
+#content2 .logo a img{ height:40px; border:0;}
+#content2 .logotitle{ margin:0 10px; width:290px; text-align:left;}
 #content2 .logotitle img{ width:180px; border:0;}
 
 .giftbox:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
