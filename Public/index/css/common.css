@@ -88,25 +88,26 @@ label.disabled{}
 a.icon_close{ float:right; padding:15px 15px 0 0; width:15px; height:16px; background:url(../images/icon_close.png) no-repeat;background-size:15px 16px;-moz-background-size:15px 16px;}
 
 /*圣诞卡*/
-#cardbox{position:fixed;bottom:0px; height:286px; width:320px; margin:0 auto; background:url(../images/card.png) bottom no-repeat;background-size:320px 286px;
--moz-background-size:320px 286px;}
+#cardbox{position:fixed;bottom:0px; height:302px; width:320px; margin:0 auto; background:url(../images/card.png) bottom no-repeat;background-size:320px 302px;
+-moz-background-size:320px 302px;}
 .card{ width:320px; height:200px; margin:0 auto; position:relative;}
-.card li{ position:absolute; width:150px; height:50px;}
-.card li.c1{left:160px; top:0;}
-.card li.c2{left:30px; top:75px;}
-.card li.c3{left:165px; top:145px;}
-.card li img{ float:left; width:32px; height:32px; border:0; margin:10px 0 0 0;}
-.card li div{ float:left; width:85px; margin:10px 0 0 0; line-height:10px; font-size:8px; color:#414141; text-align:center;}
-.card li div h2{ font-size:10px; color:#414141; font-weight:normal;}
+.card li{ position:absolute; width:200px; height:50px;}
+.card li.c1{left:120px; top:0;}
+.card li.c2{left:0px; top:75px;}
+.card li.c3{left:130px; top:155px;}
+.card li img{ float:left; width:45px; height:45px; border:0; margin:10px 0 0 0;}
+.card li div{ float:left; width:125px; margin:15px 0 0 0; line-height:12px; font-size:12px; color:#414141; text-align:center;}
+.card li div h2{ font-size:14px; color:#c80000; font-weight:normal; margin-top:3px;}
 
 
 .btn_snow{ width:300px; margin:0 auto;}
-.btn_snow a{ display:inline-block;}
-a.btn1{ width:84px; height:45px; background:url(../images/btn1.png) no-repeat; margin:15px 5px 10px 5px;background-size:84px 45px;-moz-background-size:84px 45px;}
-a.btn2{ width:91px; height:45px; background:url(../images/btn2.png) no-repeat; margin:15px 5px 10px 5px;background-size:91px 45px;-moz-background-size:91px 45px;}
-a.btn3{ width:98px; height:45px; background:url(../images/btn3.png) no-repeat; margin:15px 0 10px 5px;background-size:98px 45px;-moz-background-size:98px 45px;}
-a.btn4{ width:187px; height:45px; background:url(../images/btn4.png) no-repeat; margin:15px 5px 10px 5px;background-size:187px 45px;-moz-background-size:187px 45px;}
-a.btn5{ width:101px; height:45px; background:url(../images/btn5.png) no-repeat; margin:15px 0 10px 0;background-size:101px 45px;-moz-background-size:101px 45px;}
+.btn_snow a{ display:inline-block; margin-top:25px;}
+a.btn1{ width:85px; height:54px;background:url(../images/btn_share1.png) no-repeat; background-size:300px 54px;-moz-background-size:300px 54px; background-position:0 0; margin-right:5px;}
+a.btn2{ width:95px; height:54px;background:url(../images/btn_share1.png) no-repeat; background-size:300px 54px;-moz-background-size:300px 54px; background-position:-95px 0 ; margin-right:5px;}
+a.btn3{ width:109px; height:54px;background:url(../images/btn_share1.png) no-repeat; background-size:300px 54px;-moz-background-size:300px 54px; background-position:-190px 0 ;}
+a.btn4{ width:188px; height:51px;background:url(../images/btn_share2.png) no-repeat; background-size:300px 51px;-moz-background-size:300px 51px; background-position:0 0; margin-right:2px;}
+a.btn5{ width:108px; height:51px;background:url(../images/btn_share2.png) no-repeat; background-size:300px 51px;-moz-background-size:300px 51px; background-position:-190px 0;}
 
-a.btn_del{ width:300px; height:40px; line-height:40px; text-align:center; font-size:16px; color:#fff; text-decoration:none; background:#7b7538; display:inline-block; margin-top:20px;}
-a:hover.btn_del{ background:#999350;}
+a.btn_del{ width:309px; height:45px;  background:url(../images/btn_cancel.jpg) no-repeat; display:block; margin-top:20px; text-indent:-9999em;}
+
+.hide{display:none;}
