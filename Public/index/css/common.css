@@ -42,7 +42,7 @@ html, body {height: 100%;}
 #content2 .logo{  width:320px; text-align:left;}
 #content2 .logo a img{ height:20px; border:0; margin:20px 10px 10px 20px;}
 #content2 .logotitle{ margin:0 20px; width:290px; text-align:left;}
-#content2 .logotitle img{ width:200px; border:0;}
+#content2 .logotitle img{ width:180px; border:0;}
 
 .giftbox:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
 .giftbox{zoom:1;}
@@ -110,4 +110,3 @@ a.btn5{ width:108px; height:51px;background:url(../images/btn_share2.png) no-rep
 
 a.btn_del{ width:309px; height:45px;  background:url(../images/btn_cancel.jpg) no-repeat; display:block; margin-top:20px; text-indent:-9999em;}
 
-.hide{display:none;}

@@ -59,14 +59,36 @@ $(function(){
 	$('.giftbox').hcheckbox();
 });
 
-//显示灰色 jQuery 遮罩层
-function showBg() {
-	
-	$("#hidebg").css({
-		display: "block"
-	});
-	$("#popDiv").show();
-}
+//弹出遮罩层
+$(function(){
+    $(".zmb").click(function(event){
+        var e=window.event || event;
+        if(e.stopPropagation){
+            e.stopPropagation();
+        }else{
+            e.cancelBubble = true;
+        }
+        $("#hidebg").css({
+            display: "block"
+        });
+        $("#popDiv").show();
+    });
+    $(".divimg").click(function(event){
+        var e=window.event || event;
+        if(e.stopPropagation){
+            e.stopPropagation();
+        }else{
+            e.cancelBubble = true;
+        }
+    });
+    document.onclick = function(){
+        $("#hidebg,#popDiv").hide();
+    };
+})
+
+
+
+
 //关闭灰色 jQuery 遮罩
 function closeBg() {
 	$("#hidebg,#popDiv").hide();
@@ -108,7 +130,7 @@ function closeBg() {
                     </volist>
 
                 </ul>
-                <div class="btn_zmw"><a href="#" onClick="showBg();"></a></div>
+                    <div class="btn_zmw"><a class="zmb" href="#"></a></div>
                 </form>
             </div>
         </div>

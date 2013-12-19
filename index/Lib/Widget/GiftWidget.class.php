@@ -13,7 +13,7 @@ class GiftWidget extends Action {
         2 => array(
             'title' => '1520 6英寸大屏',
             'content' => '更大的屏幕尺寸，更炫的视觉享受，祝你',
-            'label' => '天空海阔',
+            'label' => '大有作为',
             'icon' => '2.png',
         ),
 
@@ -89,8 +89,8 @@ class GiftWidget extends Action {
 
         13 => array(
             'title' => '动态磁贴',
-            'content' => '将兴趣模块定格在开始界面, 随心所欲, 爱你所爱, 让你',
-            'label' => '精彩畅玩',
+            'content' => '最新的应用更新，更快的实时消息，新鲜方便还快捷，随时随地，祝你',
+            'label' => '运筹帷幄',
             'icon' => '13.png',
         ),
 
