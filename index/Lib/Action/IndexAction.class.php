@@ -18,6 +18,11 @@ class IndexAction extends Action {
     }
 
     public function result(){
+        if(strpos($_SERVER["HTTP_USER_AGENT"], 'Windows Phone')){
+            $this -> assign('de_css', 'common_wp.css');
+        }else{
+            $this -> assign('de_css', 'common.css');
+        }
         $gift = M('Gifts');
         $arr = json_decode($gift -> where(array('id' => $this -> _get('id', 'intval'))) -> getField('gifts'));
         $result = R('Gift/getGift', array($arr), 'Widget');
