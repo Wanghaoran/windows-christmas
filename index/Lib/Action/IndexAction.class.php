@@ -2,9 +2,9 @@
 class IndexAction extends Action {
     public function index(){
         if(strpos($_SERVER["HTTP_USER_AGENT"], 'Windows Phone')){
-            echo '<span style="color:#ffffff;">你用的是 WP！！！</span>';
+            $this -> assign('de_css', 'common_wp.css');
         }else{
-            echo '<span style="color:#ffffff;">你用的不是WP</span>';
+            $this -> assign('de_css', 'common.css');
         }
         $gift = R('Gift/allGift', '', 'Widget');
         $this -> assign('gift', $gift);
