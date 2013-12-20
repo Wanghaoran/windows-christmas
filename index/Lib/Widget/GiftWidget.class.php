@@ -89,7 +89,7 @@ class GiftWidget extends Action {
 
         13 => array(
             'title' => '动态磁贴',
-            'content' => '将兴趣模块定格在开始界面, 随心所欲, 爱你所爱, 让你',
+            'content' => '将关注信息固定在开始界面，随时掌握最新信息，让您',
             'label' => '运筹帷幄',
             'icon' => '13.png',
         ),
