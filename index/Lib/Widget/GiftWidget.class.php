@@ -75,7 +75,7 @@ class GiftWidget extends Action {
 
         11 => array(
             'title' => '美图秀秀',
-            'content' => '美图秀秀，全方位图片美化，随心所欲个性拼图，祝你',
+            'content' => '美图秀秀，全方位图片美化，随心所欲个性拼图祝你',
             'label' => '青春永驻',
             'icon' => '11.png',
         ),
