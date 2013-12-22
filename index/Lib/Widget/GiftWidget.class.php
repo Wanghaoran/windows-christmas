@@ -40,7 +40,7 @@ class GiftWidget extends Action {
 
         6 => array(
             'title' => 'SkyDrive',
-            'content' => 'SkyDrive，让照片、视频、办公软件随你一起走，祝你',
+            'content' => 'SkyDrive，让照片、办公软件随你一起走，祝你',
             'label' => '乐享生活',
             'icon' => '6.png',
         ),
