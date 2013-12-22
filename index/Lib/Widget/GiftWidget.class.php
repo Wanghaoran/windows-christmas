@@ -5,7 +5,7 @@ class GiftWidget extends Action {
 
         1 => array(
             'title' => 'Camera 360',
-            'content' => '简单智能的拍摄体验，祝你',
+            'content' => 'Camera 360，简单智能的拍摄体验，祝你',
             'label' => '笑口常开',
             'icon'  => '1.png',
         ),
@@ -26,91 +26,91 @@ class GiftWidget extends Action {
 
         4 => array(
             'title' => '房间',
-            'content' => '跟不同人群一起分享照片、日程，祝你和亲朋',
+            'content' => '在”房间”跟不同人群分享照片、日程，祝你和亲朋',
             'label' => '欢聚一堂',
             'icon' => '4.png',
         ),
 
         5 => array(
             'title' => '微信',
-            'content' => '天马行空的朋友圈，祝你',
+            'content' => '微信天马行空的朋友圈，祝你',
             'label' => '广结益友',
             'icon' => '5.png',
         ),
 
         6 => array(
             'title' => 'SkyDrive',
-            'content' => '照片、视频、办公软件随你一起走，祝你',
+            'content' => 'SkyDrive，让照片、视频、办公软件随你一起走，祝你',
             'label' => '乐享生活',
             'icon' => '6.png',
         ),
 
         7 => array(
             'title' => '必应资讯',
-            'content' => '想看新闻，有求必应，足不出户，',
+            'content' => '想看新闻，有求必应，必应咨询让你足不出户，也能',
             'label' => '纵横四海',
             'icon' => '7.png',
         ),
 
         8 => array(
             'title' => '人脉中心',
-            'content' => '好友动态实时更新，让你轻轻松松',
+            'content' => '人脉，实时更新好友动态，让你轻轻松松',
             'label' => '结缘四海',
             'icon' => '8.png',
         ),
 
         9 => array(
             'title' => '动态应用',
-            'content' => '应用活灵活现，界面一目了然，祝你',
-            'label' => '得如所愿',
+            'content' => '动态应用，让你关注的信息在界面上一目了然，祝你',
+            'label' => '运筹帷幄',
             'icon' => '9.png',
         ),
 
         10 => array(
             'title' => '必应健康',
-            'content' => '每时每刻的养生资讯，祝你',
+            'content' => '必应健康，每时每刻的养生资讯，祝你',
             'label' => '身体健康',
             'icon' => '10.png',
         ),
 
         11 => array(
             'title' => '美图秀秀',
-            'content' => '全方位的图片美化，随心所欲的个性拼图，祝你',
+            'content' => '美图秀秀，全方位图片美化，随心所欲个性拼图，祝你',
             'label' => '青春永驻',
             'icon' => '11.png',
         ),
 
         12 => array(
             'title' => '爱奇艺视频',
-            'content' => '持续快速更新电影、电视剧等热门视频，让你',
+            'content' => '爱奇艺视频，持续快速更新热门电影电视剧，让你',
             'label' => '大开眼界',
             'icon' => '12.png',
         ),
 
         13 => array(
             'title' => '动态磁贴',
-            'content' => '关注信息固定在开始界面，随时掌握最新信息，让您',
-            'label' => '运筹帷幄',
+            'content' => '唯一拥有动态磁贴的手机，个性定制界面，让你',
+            'label' => '与众不同',
             'icon' => '13.png',
         ),
 
         14 => array(
             'title' => '贴纸天气',
-            'content' => '晴空艳阳或是雨雪雾霾，随时随地的贴心提示，祝你',
+            'content' => '贴纸天气，随时随地贴心提示雨雪阴晴，祝你',
             'label' => '美丽动人',
             'icon' => '14.png',
         ),
 
         15 => array(
             'title' => 'Here地图',
-            'content' => '覆盖95个国家和地区的离线地图，祝你',
+            'content' => 'Here地图，拥有覆盖95个国家和地区的离线地图，祝你',
             'label' => '四通八达',
             'icon' => '15.png',
         ),
 
         16 => array(
             'title' => '必应财经',
-            'content' => '宅在家里也能当商界精英，祝你',
+            'content' => '必应财经，让你宅在家里也能当商界精英，祝你',
             'label' => '财源广进',
             'icon' => '16.png',
         ),
