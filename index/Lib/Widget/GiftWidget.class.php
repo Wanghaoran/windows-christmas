@@ -103,7 +103,7 @@ class GiftWidget extends Action {
 
         15 => array(
             'title' => 'Here地图',
-            'content' => 'Here地图，拥有覆盖95个国家和地区的离线地图，祝你',
+            'content' => 'Here地图，覆盖95个国家和地区的离线地图，祝你',
             'label' => '四通八达',
             'icon' => '15.png',
         ),
