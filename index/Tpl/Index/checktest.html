@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Cache-Control" content="max-age=3600">
+    <meta name="MobileOptimized" content="240">
+    <meta name="apple-touch-fullscreen" content="YES">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <script>
+        var dataForWeixin={
+            <!-- lang: js -->
+            appId:"",
+            <!-- lang: js -->
+            MsgImg:"http://www.cnhtk.cn__UPLOAD__/icon.jpg",
+            <!-- lang: js -->
+            TLImg:"http://www.cnhtk.cn__UPLOAD__/icon.jpg",
+            <!-- lang: js -->
+            url:"http://www.cnhtk.cn__SELF__",
+            <!-- lang: js -->
+            title:"<-{$re}->",
+            <!-- lang: js -->
+            desc:"这是<-{$re}->",
+            <!-- lang: js -->
+            fakeid:"",
+            <!-- lang: js -->
+            callback:function(){}
+            <!-- lang: js -->
+        };
+        <!-- lang: js -->
+        (function(){
+            <!-- lang: js -->
+            var onBridgeReady=function(){
+                <!-- lang: js -->
+                WeixinJSBridge.on('menu:share:appmessage', function(argv){
+                    <!-- lang: js -->
+                    WeixinJSBridge.invoke('sendAppMessage',{
+                        <!-- lang: js -->
+                        "appid":dataForWeixin.appId,
+                        <!-- lang: js -->
+                        "img_url":dataForWeixin.MsgImg,
+                        <!-- lang: js -->
+                        "img_width":"120",
+                        <!-- lang: js -->
+                        "img_height":"120",
+                        <!-- lang: js -->
+                        "link":dataForWeixin.url,
+                        <!-- lang: js -->
+                        "desc":dataForWeixin.desc,
+                        <!-- lang: js -->
+                        "title":dataForWeixin.title
+                        <!-- lang: js -->
+                    }, function(res){(dataForWeixin.callback)();});
+                    <!-- lang: js -->
+                });
+                <!-- lang: js -->
+                WeixinJSBridge.on('menu:share:timeline', function(argv){
+                    <!-- lang: js -->
+                    (dataForWeixin.callback)();
+                    <!-- lang: js -->
+                    WeixinJSBridge.invoke('shareTimeline',{
+                        <!-- lang: js -->
+                        "img_url":dataForWeixin.TLImg,
+                        <!-- lang: js -->
+                        "img_width":"120",
+                        <!-- lang: js -->
+                        "img_height":"120",
+                        <!-- lang: js -->
+                        "link":dataForWeixin.url,
+                        <!-- lang: js -->
+                        "desc":dataForWeixin.desc,
+                        <!-- lang: js -->
+                        "title":dataForWeixin.title
+                        <!-- lang: js -->
+                    }, function(res){});
+                    <!-- lang: js -->
+                });
+                <!-- lang: js -->
+                WeixinJSBridge.on('menu:share:weibo', function(argv){
+                    <!-- lang: js -->
+                    WeixinJSBridge.invoke('shareWeibo',{
+                        <!-- lang: js -->
+                        "content":dataForWeixin.title,
+                        <!-- lang: js -->
+                        "url":dataForWeixin.url
+                        <!-- lang: js -->
+                    }, function(res){(dataForWeixin.callback)();});
+                    <!-- lang: js -->
+                });
+                <!-- lang: js -->
+                WeixinJSBridge.on('menu:share:facebook', function(argv){
+                    <!-- lang: js -->
+                    (dataForWeixin.callback)();
+                    <!-- lang: js -->
+                    WeixinJSBridge.invoke('shareFB',{
+                        <!-- lang: js -->
+                        "img_url":dataForWeixin.TLImg,
+                        <!-- lang: js -->
+                        "img_width":"120",
+                        <!-- lang: js -->
+                        "img_height":"120",
+                        <!-- lang: js -->
+                        "link":dataForWeixin.url,
+                        <!-- lang: js -->
+                        "desc":dataForWeixin.desc,
+                        <!-- lang: js -->
+                        "title":dataForWeixin.title
+                        <!-- lang: js -->
+                    }, function(res){});
+                    <!-- lang: js -->
+                });
+                <!-- lang: js -->
+            };
+            <!-- lang: js -->
+            if(document.addEventListener){
+                <!-- lang: js -->
+                document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+                <!-- lang: js -->
+            }else if(document.attachEvent){
+                <!-- lang: js -->
+                document.attachEvent('WeixinJSBridgeReady'   , onBridgeReady);
+                <!-- lang: js -->
+                document.attachEvent('onWeixinJSBridgeReady' , onBridgeReady);
+                <!-- lang: js -->
+            }
+            <!-- lang: js -->
+        })();
+    </script>
+</head>
+<body>
+<eq name="type" value="go">
+<h3>这是：<span style="color: red;"><-{$re}-></span> 如果你分享这个页面，别人点进来将会看到 <-{$re}-> 这几个文字http://www.cnhtk.cn__SELF__</h3>
+    <else/>
+    <h3><-{$re}-></h3>
+    </eq>
+</body>
+</html>

@@ -35,4 +35,29 @@ class IndexAction extends Action {
 
     }
 
+    public function test1(){
+        $this -> display();
+    }
+
+    public function checktest(){
+        $arr = array(
+            1 => '真心话1',
+            2 => '真心话2',
+            3 => '真心话3',
+            4 => '真心话4',
+            5 => '大冒险1',
+            6 => '大冒险2',
+            7 => '大冒险3',
+            8 => '大冒险4',
+        );
+
+        $this -> assign('re', $arr[$_GET['id']]);
+        if(!empty($_SERVER['HTTP_REFERER'])){
+            $this -> assign('type', 'go');
+        }else{
+            $this -> assign('type', 'goback');
+        }
+        $this -> display();
+    }
+
 }
